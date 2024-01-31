@@ -1,0 +1,41 @@
+<resources>
+    <!-- app -->
+    <string name="app_name">BookReader</string>
+    <!-- app -->
+
+
+
+    <!-- main -->
+    <string name="main_choose_book_text" >Выберите книгу</string>
+    <string name="main_choose_book_btn_text" >Выбрать</string>
+    <string name="main_books_link" >Сайт с книгами</string>
+    <!-- main -->
+
+
+
+    <!-- Settings -->
+    <string-array name="settings_theme_values">
+        <item>Темная</item>
+        <item>Светлая</item>
+    </string-array>
+    <string name="settings_switch_theme">Сменить тему</string>
+    <string name="settings_switch_player">Плеер</string>
+    <!-- Settings -->
+
+
+
+    <!-- Guide -->
+    <string name="guide_next_text">Следущая</string>
+    <string name="guide_previous_text">Предыдущая</string>
+
+    <string-array name="guide_strings">
+        <item>1.Выберите файл (поддерживает форматы : pdf)</item>
+        <item>2.Вы можете выбрать аудиокнигу (зажмите на кнопку проигрывания), если пожелаете. Плеер можно выключить в настройках.</item>
+    </string-array>
+    <!-- Guide -->
+
+
+
+    <!-- TODO: -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+</resources>

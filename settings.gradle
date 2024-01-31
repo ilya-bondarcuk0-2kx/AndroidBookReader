@@ -1,0 +1,27 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        jcenter()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        jcenter()
+    }
+}
+
+
+
+rootProject.name = "Book_Reader_prod"
+include ':app'
+include ':fbreader_text_extras'
+include ':sample_extensions'
+include ':sample_single'
+include ':fbreader_styles'
+include ':fbreader_extras'
